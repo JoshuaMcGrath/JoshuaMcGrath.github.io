@@ -22,7 +22,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-grey fixed-top" id="navbarTop">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Joshua McGrath</a>
+      <a class="navbar-brand " href="#page-top">Joshua McGrath</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
@@ -30,19 +30,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -322,21 +322,8 @@
 
   <script src="cvjs/typed/typed.min.js"></script>
 
-  <script src="cvjs/scroll.js"></script>
-  <script>
-    (function ($) {
-
-      if ($('.text-slider').length == 1) {
-        var typed_strings = $('.text-slider-items').text();
-        var typed = new Typed('.text-slider', {
-          strings: typed_strings.split(','),
-          typeSpeed: 80,
-          loop: true,
-          backDelay: 1100,
-          backSpeed: 30
-        });
-      }
-    })(jQuery);</script>
+  <script src="cvjs/script.js"></script>
+ 
 </body>
 
 </html>
