@@ -260,37 +260,46 @@ body {
     }
     
     #navbarTop .navbar-brand {
-      padding: .5rem 0;
+      padding: .1rem 0;
       color: #142943;
     }
+
     #navbarTop .nav-link {
       transition: none;
       padding: 2rem 1.5rem;
       color: #142943;
     }
+
     #navbarTop .nav-link:hover {
       color: rgba(73, 255, 255, 0.75);
     }
+
     #navbarTop .nav-link:active {
       color: rgb(20, 236, 200);
     }
+
     #navbarTop.navbar-shrink {
       background-color: #fff;
     }
+
     #navbarTop.navbar-shrink .navbar-brand {
       color: #1b9397;
     }
+
     #navbarTop.navbar-shrink .nav-link {
       color: #1b9397;
       padding: 1.5rem 1.5rem 1.25rem;
       border-bottom: 0.25rem solid transparent;
     }
+
     #navbarTop.navbar-shrink .nav-link:hover {
       color: #3e8c75;
     }
+
     #navbarTop.navbar-shrink .nav-link:active {
       color: #467370;
     }
+    
     #navbarTop.navbar-shrink .nav-link.active {
       color: #3e8c75;
       outline: none;
