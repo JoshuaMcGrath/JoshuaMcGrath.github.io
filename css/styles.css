@@ -13,6 +13,10 @@ body {
   color: #1b9397;
 }
 
+.form-button{
+  padding-top:1rem;
+}
+
 #contact-icons a {
   color: rgb(114, 158, 158);
   font-size: 48px;
