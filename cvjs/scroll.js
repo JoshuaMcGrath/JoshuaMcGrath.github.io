@@ -9,16 +9,16 @@
 
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
-    target: '#mainNav',
+    target: '#navbarTop',
     offset: 100
   });
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
+    if ($("#navbarTop").offset().top > 100) {
+      $("#navbarTop").addClass("navbar-shrink");
     } else {
-      $("#mainNav").removeClass("navbar-shrink");
+      $("#navbarTop").removeClass("navbar-shrink");
     }
   };
   // Collapse now if page is not at top
