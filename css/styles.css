@@ -225,19 +225,16 @@ body {
     font-family: 'Bebas Neue', cursive;
   }
   #navbarTop {
-    padding-top: 0;
-    padding-bottom: 0;
-    border-bottom: none;
     background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
   }
   #navbarTop .navbar-brand {
-    padding: .1rem 0;
+    padding: .15rem 0;
     color: #142943;
   }
   #navbarTop .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.5rem;
     color: #142943;
   }
   #navbarTop .nav-link:hover {
@@ -254,7 +251,7 @@ body {
   }
   #navbarTop.navbar-mobile .nav-link {
     color: #1b9397;
-    padding: 1.5rem 1.5rem 1.25rem;
+    padding: 1.25rem 1.25rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #navbarTop.navbar-mobile .nav-link:hover {
@@ -265,8 +262,7 @@ body {
   }
   #navbarTop.navbar-mobile .nav-link.active {
     color: #3e8c75;
-    outline: none;
-    border-bottom: 0.25rem solid #3e8c75;
+    border-bottom: 0.3rem solid #3e8c75;
   }
 }
 
