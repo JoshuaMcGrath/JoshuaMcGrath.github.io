@@ -13,9 +13,9 @@
 
   var navbarCollapse = function() {
     if ($("#navbarTop").offset().top > 100) {
-      $("#navbarTop").addClass("navbar-shrink");
+      $("#navbarTop").addClass("navbar-mobile");
     } else {
-      $("#navbarTop").removeClass("navbar-shrink");
+      $("#navbarTop").removeClass("navbar-mobile");
     }
   };
   navbarCollapse();
@@ -56,9 +56,9 @@ $(document).ready(function () {
 
 (function($) {
 
-  if ($('.text-slider').length == 1) {
-    var typed_strings = $('.text-slider-items').text();
-    var typed = new Typed('.text-slider', {
+  if ($('.typewriter').length == 1) {
+    var typed_strings = $('.typewrite-content').text();
+    var typed = new Typed('.typewriter', {
       strings: typed_strings.split(','),
       typeSpeed: 80,
       loop: true,
