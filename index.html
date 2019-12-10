@@ -17,12 +17,12 @@
   <link href="css/styles.css" rel="stylesheet">
   <link rel="icon" href="images/favicon.png">
 
-      <!-- HTML5 for IE < 9 -->
-      <!--[if lt IE 9]>
+  <!-- HTML5 for IE < 9 -->
+  <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->    
-    <!-- Media Queries for IE < 9 -->
-      <!--[if lt IE 9]>
+      <![endif]-->
+  <!-- Media Queries for IE < 9 -->
+  <!--[if lt IE 9]>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
       <![endif]-->
 
@@ -33,8 +33,8 @@
   <nav class="navbar navbar-expand-lg navbar-grey fixed-top" id="navbarTop">
     <div class="container">
       <a class="navbar-brand scroll" href="#page-top">Joshua McGrath</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#respond"
-        aria-controls="respond" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#respond" aria-controls="respond"
+        aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="respond">
@@ -77,8 +77,34 @@
                 <i class="fab fa-linkedin-square"></i>
               </a>
             </div>
+            <button type="button" class="btn btn-info" data-toggle="modal"
+              data-target="#bannerModalCenter" id="modalButton">
+              Contact Details
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="bannerModalCenter" tabindex="-1" role="dialog" aria-labelledby="bannerModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="bannerModalLongTitle">Contact Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Email: jmgcronin@gmail.com</h5>
+                    <h5>Phone Number: 0851328829</h5>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </header>
   </section>
 
@@ -113,12 +139,13 @@
           </div>
         </div>
         <div id="skills">
-          <button class="btn btn-outline-info" style="font-family: 'Bebas Neue', cursive;" type="button" data-toggle="collapse" data-target="#collapses" aria-expanded="false" aria-controls="collapseExample">
+          <button class="btn btn-outline-info" style="font-family: 'Bebas Neue', cursive;" type="button" data-toggle="collapse" data-target="#collapses"
+            aria-expanded="false" aria-controls="collapseExample">
             Skills & Interests
           </button>
           <div class="collapse" id="collapses">
             <div class="card card-body">
-              <div class = "row">
+              <div class="row">
                 <div class="col-sm-3 col-xs-3 col-3">
                   <a>
                     <i class="fab fa-java"></i>

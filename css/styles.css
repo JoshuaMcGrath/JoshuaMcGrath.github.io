@@ -13,8 +13,8 @@ body {
   color: #1b9397;
 }
 
-.form-button{
-  padding-top:1rem;
+.form-button {
+  padding-top: 1rem;
 }
 
 #contact-icons a {
@@ -177,6 +177,19 @@ body {
 #navbarTop .navbar-nav .nav-item:active, #navbarTop .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+#bannerModalCenter {
+  font-family: 'Bebas Neue', cursive;
+}
+
+#modalButton {
+  margin-top: 1.5rem;
+  font-family: 'Bebas Neue', cursive;
 }
 
 @media (max-width: 992px) {
