@@ -183,6 +183,11 @@ body {
   z-index: -1;
 }
 
+#cv-button {
+  margin-top: 1.8rem;
+  margin-right: 4.1rem;
+}
+
 #bannerModalCenter {
   font-family: 'Bebas Neue', cursive;
 }
@@ -215,6 +220,10 @@ body {
 }
 
 @media (min-width: 992px) {
+  #cv-button {
+    margin-top: 1.8rem;
+    margin-right: 4.1rem;
+  }
   #imap {
     padding-left: 2rem;
   }
